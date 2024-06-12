@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Billing Application</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 0;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+        nav .navbar-nav .nav-link {
+            color: #fff;
+        }
+        nav .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        section {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex-grow: 1;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            font-size: 1em;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dashboard</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">E-Billing</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="New_connection.html">Apply for New Connection</a></li>
+                        <li class="nav-item"><a class="nav-link" href="bill_payment.html">Pay Bill</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Bill_history.html">Payment History</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Feedback_page.html">Feedback</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section>
+            <h2>Manage Your Bills Online</h2>
+            <p>Conveniently view, pay, and manage your bills securely online.</p>
+        </section>
+        
+        <section>
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Secure and reliable payment processing</li>
+                <li>Easy bill management tools</li>
+                <li>24/7 access to your account</li>
+                <li>Personalized customer support</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Get Started Today!</h2>
+            <p>Sign up now to start managing your bills online.</p>
+            <form action="signup.html">
+                <button type="submit" class="btn btn-primary">Sign Up Now</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 E-Billing Application. All rights reserved.</p>
+    </footer>
+    
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
